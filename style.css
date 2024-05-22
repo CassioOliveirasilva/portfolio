@@ -59,9 +59,10 @@ body {
 
 .apresentacao__links__link {
     /* background-color: #f2168f; estilo teste */
-    width: 280px;
+    border: 3px solid #f2168f;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 10px;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
@@ -73,6 +74,7 @@ body {
 
 img {
     width: 320px;
+    border: 3px;
     border-radius: 20px;
     border-color:#f2168f;
     border-style: solid;

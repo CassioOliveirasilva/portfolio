@@ -44,7 +44,7 @@ body {
 .apresentacao__links {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     gap: 32px;
 
@@ -72,12 +72,4 @@ body {
     
 }
 
-img {
-    width: 320px;
-    border: 3px;
-    border-radius: 20px;
-    border-color:#f2168f;
-    border-style: solid;
-    
-}
 

@@ -59,6 +59,9 @@ body {
 
 .apresentacao__links__link {
     /* background-color: #f2168f; estilo teste */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 3px solid #f2168f;
     width: 378px;
     text-align: center;
@@ -71,5 +74,15 @@ body {
     font-family: 'Montserrat', sans-serif;
     
 }
-
+.minha_foto {  
+    display: flex;
+    justify-content: center;
+    border: 4px;
+    border-radius: 10px;
+    border-color:#f2168f;
+    border-style: solid;
+}
+.apresentacao__links__link:hover {
+    background-color: #272722;
+}
 
